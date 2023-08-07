@@ -21,6 +21,7 @@ RUN \
     gstreamer1.0-plugins-bad \
     gstreamer1.0-libav \
     git \
+    build-essentials \
     clang \
     libxinerama-dev \
     libxrandr-dev \
