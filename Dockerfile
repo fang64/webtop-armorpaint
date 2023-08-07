@@ -42,7 +42,7 @@ RUN \
   cd /opt && \
   git clone --recursive https://github.com/armory3d/armortools && \
   cd armortools/armorpaint && \
-  ../armorcore/Kinc/make --from ../armorcore -g opengl --compiler clang --compile && \
+  ../armorcore/Kinc/make --from ../armorcore -g opengl --compile && \
   cd ../armorcore/Deployment && \
   strip ArmorPaint && \
   echo "**** xfce tweaks ****" && \
